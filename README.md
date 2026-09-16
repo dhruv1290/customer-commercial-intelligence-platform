@@ -97,6 +97,17 @@ A dedicated Excel chart sheet was created to summarise selected findings.
 ### Top Product Categories by Merchandise Value
 ![Top Product Categories](top_product_categories.png)
 
+## Project Files
+
+- [Data Profiling Notebook](01_data_profiling.ipynb)
+- [Data Cleaning Notebook](02_data_cleaning.ipynb)
+- [Data Integration Notebook](03_data_integration.ipynb)
+- [Data Profiling Summary](Data_Profiling_Summary.pdf)
+- [Data Understanding & Column Documentation](data_understanding.xlsx)
+- [Cleaning Log](cleaning_log.csv)
+
+> The full Excel analysis workbook is maintained locally due to GitHub file-size limitations. Selected analysis outputs are included above as screenshots.
+
 ## Coming Next
 
 - SQL Server analytical queries
