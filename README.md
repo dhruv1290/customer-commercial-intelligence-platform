@@ -97,6 +97,15 @@ A dedicated Excel chart sheet was created to summarise selected findings.
 ### Top Product Categories by Merchandise Value
 ![Top Product Categories](top_product_categories.png)
 
+## Selected Findings
+
+- Delivered-order volume increased substantially through 2017, with November 2017 recording the highest monthly delivered-order volume in the analysed period.
+- March 2018 recorded the highest meaningful monthly late-delivery rate at approximately 19%, well above the overall delivered-order late rate of about 6.8%.
+- São Paulo (SP) represented the largest customer market by both order volume and total payment value.
+- Late-delivery performance varied considerably by state, showing that high order volume does not necessarily imply a high late-delivery rate.
+- `health_beauty` generated the highest merchandise value among the analysed product categories, followed by `watches_gifts`.
+- Delivery performance and customer review behaviour were analysed together to investigate whether late orders were associated with poorer customer ratings.
+
 ## Project Files
 
 - [Data Profiling Notebook](01_data_profiling.ipynb)
