@@ -1,0 +1,12 @@
+table,issue,action,reason
+Customers,postcode stored as a number,converted postcode to 5 character string,preserve leading zeros and support correct joins
+Sellers,postcode stored as a number,converted postcode to 5 character string,preserve leading zeros and support correct joins
+Geolocation,exact duplicate rows,remove extra duplicated rows,exact duplicates and no useful information
+Geolocation,multiple rows per postcode,aggregated to one row per postcode,prevent row multiplication during joins
+Products,missing product category,replaced missing category with unknown and created flag,keep products while identifying missing metadata
+Products,zero or missing weight/dimensions,kept values and created quality flags,do not guess or delete uncertain values
+Products,missing english category translation,created missing translation flag and added english category,keep untranslated product visible
+Orders,order date anomalies,created quality flags and days_late column,keep unusual orders without deleting them
+Payments,payment anomalies,created anomaly flags,keep unusual payments without inventing values
+Reviews,multiple repeated reviews,created review quality flags,avoid deleting geninue multiple reviews
+Order Items,shipping date stored as text,converted shipping_limit_date to date_time,allow correct date calculation
