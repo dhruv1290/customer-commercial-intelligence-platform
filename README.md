@@ -86,6 +86,17 @@ Analysis completed includes:
 
 A dedicated Excel chart sheet was created to summarise selected findings.
 
+## Excel Analysis Preview
+
+### Monthly Delivered Order Trend
+![Monthly Delivered Order Trend](monthly_delivered_order_trend.png)
+
+### Monthly Late Delivery Rate
+![Monthly Late Delivery Rate](monthly_late_delivery_rate.png)
+
+### Top Product Categories by Merchandise Value
+![Top Product Categories](top_product_categories.png)
+
 ## Coming Next
 
 - SQL Server analytical queries
